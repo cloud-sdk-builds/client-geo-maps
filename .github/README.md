@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-geo-maps`](https://www.npmjs.com/package/@aws-sdk/client-geo-maps/v/3.726.0).
+[`@aws-sdk/client-geo-maps`](https://www.npmjs.com/package/@aws-sdk/client-geo-maps/v/3.726.1).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-geo-maps@3.726.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-geo-maps@3.726.1/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-EaOH8py5BOVxzvjZ9CNGMhKZJ9S1B/vj/Im8P01HVP9cnIc7I3rA+GhsCdFeV+U9
+sha384-gxfRJ3y3OCLCAexL2dIkcFFaATZqWMt0J630v2zF+ejpnxoOC2bWRJGLM7YGqHea
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-geo-maps": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-geo-maps@3.726.0/index.min.mjs"
+            "@aws-sdk/client-geo-maps": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-geo-maps@3.726.1/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-geo-maps@3.726.0/index.min.mjs": "sha384-EaOH8py5BOVxzvjZ9CNGMhKZJ9S1B/vj/Im8P01HVP9cnIc7I3rA+GhsCdFeV+U9"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-geo-maps@3.726.1/index.min.mjs": "sha384-gxfRJ3y3OCLCAexL2dIkcFFaATZqWMt0J630v2zF+ejpnxoOC2bWRJGLM7YGqHea"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-geo-maps": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-geo-maps@3.726.0/index.min.mjs"
+                        "@aws-sdk/client-geo-maps": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-geo-maps@3.726.1/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-geo-maps@3.726.0/index.min.mjs": "sha384-EaOH8py5BOVxzvjZ9CNGMhKZJ9S1B/vj/Im8P01HVP9cnIc7I3rA+GhsCdFeV+U9"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-geo-maps@3.726.1/index.min.mjs": "sha384-gxfRJ3y3OCLCAexL2dIkcFFaATZqWMt0J630v2zF+ejpnxoOC2bWRJGLM7YGqHea"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.726.0`)
+* Always pin to a specific version (`@3.726.1`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-geo-maps/blob/refs/tags/3.726.0/LICENSE
+https://github.com/cloud-sdk-builds/client-geo-maps/blob/refs/tags/3.726.1/LICENSE
 ```
 
 ---
